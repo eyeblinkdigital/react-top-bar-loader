@@ -1,7 +1,9 @@
-class Test {
-    foo() {
-        console.log('foobar')
-    }
+import React from 'react'
+
+class TopBarLoader extends React.Component {
+  render() {
+    return <div>Topbarloader</div>
+  }
 }
 
-export default Dog
+export default TopBarLoader
