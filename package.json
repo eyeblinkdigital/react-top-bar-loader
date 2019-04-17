@@ -1,6 +1,6 @@
 {
   "name": "react-top-bar-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A customizable and tiny top page loader for react",
   "main": "dist/index.js",
   "sideEffects": false,
