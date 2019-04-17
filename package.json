@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -s demo",
     "build": "./node_modules/.bin/babel src --out-dir dist",
-    "prepare": "yarn build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "prepublishOnly": "yarn build",
+    "predeploy": "yarn build-storybook",
+    "deploy": "storybook-to-ghpages -e storybook-static"
   },
   "storybook-deployer": {
     "gitUsername": "M-ZubairAhmed",
@@ -34,6 +35,7 @@
   },
   "homepage": "https://github.com/eyeblinkdigital/react-top-bar-loader#readme",
   "peerDependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.5"
   },
   "devDependencies": {
@@ -47,16 +49,18 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^5.0.8",
-    "@storybook/addon-links": "^5.0.8",
+    "@storybook/addon-knobs": "^5.0.9",
+    "@storybook/addon-options": "^5.0.9",
     "@storybook/addons": "^5.0.8",
-    "@storybook/react": "^5.0.8",
+    "@storybook/react": "^5.1.0-alpha.29",
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5",
     "babel-preset-minify": "^0.5.0",
     "prettier": "1.16.4",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0"
   },
   "dependencies": {}
 }

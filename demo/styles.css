@@ -1,0 +1,25 @@
+/*!
+ * Reaect top bar loader
+ * https://github.com/eyeblinkdigital/react-top-bar-loader
+ *
+ * Licensed under the MIT license
+ */
+
+.react-top-bar-loader-container {
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  transition: all 400ms;
+  visibility: visible;
+  width: 100%;
+  z-index: 9999;
+}
+
+.react-top-bar-loader-width {
+  background-color: #36e6b4;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 4px;
+  transition: all 200ms ease;
+}
