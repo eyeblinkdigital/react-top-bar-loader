@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -s demo",
     "build": "./node_modules/.bin/babel src --out-dir dist",
     "prepublishOnly": "yarn build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "predeploy": "yarn build-storybook",
+    "deploy": "storybook-to-ghpages -e storybook-static"
   },
   "storybook-deployer": {
     "gitUsername": "M-ZubairAhmed",
