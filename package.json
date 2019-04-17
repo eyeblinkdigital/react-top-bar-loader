@@ -7,7 +7,13 @@
   "sideEffects": false,
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "storybook-deployer": {
+    "gitUsername": "M-ZubairAhmed",
+    "gitEmail": "zubair@eyeblinkdigital.com",
+    "commitMessage": "Deploy Storybook [skip ci]"
   },
   "repository": {
     "type": "git",
@@ -32,16 +38,11 @@
     "@storybook/addon-links": "^5.0.8",
     "@storybook/addons": "^5.0.8",
     "@storybook/react": "^5.0.8",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5",
     "prettier": "1.16.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "rollup": "^1.10.0",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-node-resolve": "^4.2.3",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-replace": "^2.2.0"
+    "react-dom": "^16.8.6"
   },
   "dependencies": {}
 }
