@@ -16,6 +16,9 @@
     "gitEmail": "zubair@eyeblinkdigital.com",
     "commitMessage": "Deploy Storybook"
   },
+  "files": [
+    "dist/index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eyeblinkdigital/react-top-bar-loader.git"
