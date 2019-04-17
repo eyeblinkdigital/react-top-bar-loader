@@ -1,15 +1,16 @@
 {
   "name": "react-top-bar-loader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A customizable and tiny top page loader for react",
   "main": "dist/index.js",
   "sideEffects": false,
   "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -s demo",
     "build": "./node_modules/.bin/babel src --out-dir dist",
     "prepublishOnly": "yarn build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "predeploy": "yarn build-storybook",
+    "deploy": "storybook-to-ghpages -e storybook-static"
   },
   "storybook-deployer": {
     "gitUsername": "M-ZubairAhmed",
@@ -49,8 +50,9 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-knobs": "^5.0.9",
+    "@storybook/addon-options": "^5.0.9",
     "@storybook/addons": "^5.0.8",
-    "@storybook/react": "^5.0.8",
+    "@storybook/react": "^5.1.0-alpha.29",
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5",
     "babel-preset-minify": "^0.5.0",
