@@ -1,7 +1,7 @@
 <p align="center">
   <h3 align="center">React Top Bar Loader</h3>
   <img src="https://user-images.githubusercontent.com/17708702/56333074-5e8dcb00-61b0-11e9-816e-a6c8e3e7cd78.gif" alt="repo image" width="900" height="200" />
-  <h5 align="center"><i>A customizable and tiny top page loader for react</i></h5>
+  <h5 align="center"><i>A customizable and tiny top page loader for React</i></h5>
 </p>
 
 ---
