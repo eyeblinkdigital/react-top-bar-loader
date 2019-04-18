@@ -32,4 +32,4 @@ The app exposes two classnames required for styling this app.
 - react-top-bar-loader-container
 - react-top-bar-loader-width
 
-You may see the [demo style sheet](https://github.com/eyeblinkdigital/react-top-bar-loader/blob/master/demo/styles.css) inorder to modify as per your needs.
+You may see the [demo style sheet](https://github.com/eyeblinkdigital/react-top-bar-loader/blob/master/demo/styles.css) to modify as per your needs.
