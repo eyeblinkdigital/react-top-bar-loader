@@ -27,7 +27,8 @@ Pass the props
 |incrementInterval|The time in milliseconds by which loader should increment gradually.|Positive Integer|500|
 
 ### Customizing
-The app exposes two classname required for styling this app.
+The app exposes two classnames required for styling this app.
+
 - react-top-bar-loader-container
 - react-top-bar-loader-width
 
