@@ -16,7 +16,7 @@ class TopBarLoader extends React.Component {
   }
 
   state = {
-    currentPercentage: this.props.percent || -1,
+    currentPercentage: -1,
   }
 
   regularlyIncreaseBar = () => {
