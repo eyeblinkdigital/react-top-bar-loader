@@ -1,10 +1,12 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 
 import TopBarLoader from '../src'
 
-describe('First React component test with Enzyme', () => {
+describe('Component basic testing', () => {
   it('renders without crashing', () => {
-    shallow(<TopBarLoader />)
+    mount(<TopBarLoader />)
   })
 })
+
+// More tests here
