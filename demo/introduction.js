@@ -6,7 +6,7 @@ export default class Introduction extends React.Component {
       <React.Fragment>
         <header>
           <h1>React top bar loader</h1>
-          <h5>A customizable top page loader for react</h5>
+          <h5>A customizable top page loader for React</h5>
         </header>
         <section>
           <h3>Usage</h3>
@@ -28,7 +28,7 @@ export default class Introduction extends React.Component {
           <table>
             <thead>
               <tr>
-                <th>Prop name</th>
+                <th>Prop-name</th>
                 <th>Description</th>
                 <th>Type</th>
                 <th>Default</th>
@@ -55,7 +55,7 @@ export default class Introduction extends React.Component {
 
           <h3>Customizing</h3>
           <p>
-            The app exposes two classname required for styling this app.
+            The app exposes two classnames required for styling this app.
             <ol>
               <li>
                 <strong>react-top-bar-loader-container</strong>
@@ -72,6 +72,8 @@ export default class Introduction extends React.Component {
             >
               demo/styles.css
             </a>
+            .If it still doesnt suit you needs, feel free to fork and use
+            however you like.
           </p>
         </section>
       </React.Fragment>

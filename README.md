@@ -5,6 +5,7 @@
 </p>
 
 ---
+
 [![npm version](https://badge.fury.io/js/react-top-bar-loader.svg)](https://badge.fury.io/js/react-top-bar-loader)
 
 ### Usage
@@ -35,4 +36,4 @@ The app exposes two classnames required for styling this app.
 - react-top-bar-loader-container
 - react-top-bar-loader-width
 
-You may see the [demo style sheet](https://github.com/eyeblinkdigital/react-top-bar-loader/blob/master/demo/styles.css) to modify as per your needs. If it still doesnt suit you needs, feel free to fork and use however you like.
+You may see the [demo style sheet](https://github.com/eyeblinkdigital/react-top-bar-loader/blob/master/demo/styles.css) inorder to modify as per your needs. If it still doesnt suit you needs, feel free to fork and use however you like.
