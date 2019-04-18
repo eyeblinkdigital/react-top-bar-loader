@@ -6,7 +6,6 @@
 
 ---
 
-
 ### Usage
 
 Install with yarn or npm
