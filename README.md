@@ -23,8 +23,8 @@ Pass the props
 ### Options
 |   Propname|   Description|Type   |Default   |
 |---|---|---|---|
-|goToPercentage	|The end percentage bar is required to go.	|Positive Integer [0 - 100]	|-1 (hidden)   |
-|incrementInterval	|The time in milliseconds by which loader should increment gradually|	Positive Integer|	500     |
+|goToPercentage	|The end percentage bar is required to go.|Positive Integer [0 - 100]|-1 (hidden)|
+|incrementInterval|The time in milliseconds by which loader should increment gradually.|Positive Integer|500|
 
 ### Customizing
 The app exposes two classname required for styling this app.
