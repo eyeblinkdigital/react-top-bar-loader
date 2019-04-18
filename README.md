@@ -5,6 +5,7 @@
 </p>
 
 ---
+[![npm version](https://badge.fury.io/js/react-top-bar-loader.svg)](https://badge.fury.io/js/react-top-bar-loader)
 
 ### Usage
 
