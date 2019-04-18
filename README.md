@@ -1,6 +1,8 @@
 # react-top-bar-loader
 A customizable and tiny top page loader for react
 
+![Peek 2019-04-18 08-02](https://user-images.githubusercontent.com/17708702/56333074-5e8dcb00-61b0-11e9-816e-a6c8e3e7cd78.gif)
+
 ### Usage
 
 Install with yarn or npm
